@@ -1,0 +1,19 @@
+.room--lobby .card--qr {
+  padding: 16px;
+  text-align: center;
+  margin: 8px 0 24px;
+}
+
+.room--lobby .card--qr .qr {
+  margin: 0 auto;
+  padding: 12px;
+}
+
+.room--lobby .info {
+  padding: 16px 0;
+  color: #818c99;
+}
+
+.room--lobby .leave {
+  margin: 16px 0 0;
+}

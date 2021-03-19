@@ -1,0 +1,13 @@
+.room--game .game--end {
+  margin: 16px 0;
+}
+
+.room--game .locations--cell {
+  color: #818c99;
+  margin: 0px 16px 16px;
+  text-align: center;
+}
+
+.room--game .locations--card {
+  margin: 16px 0;
+}

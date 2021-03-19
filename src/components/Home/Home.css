@@ -1,0 +1,24 @@
+.panel--home .card--info {
+  margin: 8px 10px;
+  padding: 16px 35% 16px 16px;
+  color: white;
+
+  background-image: url(/src/static/images/spy_intro.png);
+  background-size: 100% auto;
+  background-position: center right 0%;
+}
+
+.panel--home .card--info .title {
+  padding-bottom: 4px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+}
+.panel--home .card--info .text {
+  font-size: 15px;
+  line-height: 20px;
+  padding-bottom: 16px;
+  opacity: 0.72;
+}
+.panel--home .card--info .button {
+}

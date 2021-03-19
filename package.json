@@ -1,21 +1,36 @@
 {
-  "name": "miniapp_dev_2",
+  "name": "spy-cli",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "@vkontakte/icons": "^1.85.0",
+    "@vkontakte/vk-bridge": "^2.4.1",
+    "@vkontakte/vk-qr": "^2.0.10",
+    "@vkontakte/vkjs": "^0.20.0",
+    "@vkontakte/vkui": "^4.3.0",
+    "centrifuge": "^2.7.2",
+    "eruda": "^2.4.1",
+    "eruda-code": "^2.0.0",
+    "eruda-dom": "^2.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-redux": "^7.2.2",
     "react-scripts": "4.0.3",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0",
+    "vk-qr": "^1.0.0",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "HTTPS=true react-scripts start --ssl",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "vk-miniapps-deploy",
+    "clean-source": "rimraf README.md src webroot package.json"
   },
   "eslintConfig": {
     "extends": [
