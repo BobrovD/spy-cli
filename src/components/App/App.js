@@ -51,7 +51,7 @@ const App = (props) => {
 
   return (
     <AppRoot className="app">
-      <Root activeView={page}>
+      <Root className="app" activeView={page}>
         <Home id={routeList.home} goTo={ goTo } user={user} setRoom={ setRoom } />
         <Info id={routeList.info} goTo={ goTo } />
         <Room id={routeList.game} goTo={ goTo } room_id={room_id} />
